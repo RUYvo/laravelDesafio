@@ -1,0 +1,109 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cinza claro */
+    color: #333; /* Cinza escuro */
+}
+
+.conteudo-destaque {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda, .direita {
+    flex: 1;
+}
+
+.informacoes {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Branco */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.informacoes h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.informacoes p {
+    margin-bottom: 20px;
+}
+
+.chamada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chamada img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+.video img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.direita .contato {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Branco */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.direita .contato h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.direita .contato p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o formulário de contato */
+form {
+    border: 1px solid #fff; /* Branco */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; /* Cinza claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+}

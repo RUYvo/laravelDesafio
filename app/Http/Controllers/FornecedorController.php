@@ -12,37 +12,38 @@ class FornecedorController extends Controller
                 'nome' => 'Fornecedor 1',
                 'status'=> 'N',
                 'cnpj'=> '0',
-                'ddd'=> '', //São Paulo
+                'ddd'=> '11', //São Paulo
                 'telefone'=> '0000-0000',
             ],
             1 => [
                 'nome' => 'Fornecedor 2',
                 'status'=> 'S',
                 'cnpj'=> null,
-                'ddd'=> '', //Fortaleza
+                'ddd'=> '85', //Fortaleza
                 'telefone'=> '1111-1111',
             ],
             2 => [
                 'nome' => 'Fornecedor 3',
                 'status'=> 'N',
                 'cnpj'=> '1',
-                'ddd'=> '', //Rio de Janeiro
+                'ddd'=> '21', //Rio de Janeiro
                 'telefone'=> '2222-2222',
             ],
             3 => [
                 'nome' => 'Fornecedor 4',
                 'status'=> 'S',
                 'cnpj'=> '2',
-                'ddd'=> '', //Minas Gerais
+                'ddd'=> '31', //Minas Gerais
                 'telefone'=> '3333-3333',
             ],
             4 => [
                 'nome' => 'Fornecedor 5',
                 'status'=> 'S',
                 'cnpj'=> '3',
-                'ddd'=> '', //Bahia
+                'ddd'=> '71', //Bahia
                 'telefone'=> '4444-4444',
-            ] 
+            ]
         ];
+        return view('site.fornecedores', compact('fornecedores'));
     }
 }
